@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="140dp"
+            android:background="#989897">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="16dp"
+                android:paddingLeft="9dp">
+
+                <com.loopj.android.image.SmartImageView
+                    android:id="@+id/siv_head"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#c61e1e"
+
+                    android:paddingTop="22dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="6dp"
+                        android:text="歌单名字"
+                        android:textColor="#e7e1e1"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="6dp"
+                        android:text="歌单描述"
+                        android:textColor="#e7e1e1"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="54dp">
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:text="全部歌单"/>
+        </LinearLayout>
+    </LinearLayout>
